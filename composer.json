@@ -1,0 +1,10 @@
+{
+    "require": {
+        "klein/klein": "2.0.x",
+        "monolog/monolog": "1.7.0",
+        "twig/twig": "1.*"
+    },
+    "autoload": {
+      "psr-0": { "Multitenancy\\": "src/" }
+    }
+}
