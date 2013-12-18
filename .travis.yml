@@ -1,0 +1,6 @@
+language: php
+php:
+  - 5.5
+install:
+  - composer
+before_script: echo 'date.timezone = "Europe/Stockholm"' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
