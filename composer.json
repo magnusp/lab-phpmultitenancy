@@ -6,5 +6,11 @@
     },
     "autoload": {
       "psr-0": { "Multitenancy\\": "src/" }
+    },
+    "extra": {
+      "heroku": {
+        "framework": "silex",
+        "index-document": "public/frontcontroller.php"
+      }
     }
 }
